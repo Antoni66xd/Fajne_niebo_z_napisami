@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "custommenu",
+  "version": "${version}",
+  "name": "Fajne Niebo z Napisami",
+  "description": "Menu pod klawiszem U: wybór tła, czcionki i muzyki z napisami (.lrc).",
+  "authors": ["Ty"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.custommenu.CustomMenuClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
